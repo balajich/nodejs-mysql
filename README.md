@@ -6,10 +6,10 @@ Clone the repo
     https://github.com/balajich/nodejs-mysql.git
 Run MySQL database using docker-compose. The below command runs MySQL in detached mode. Details are
 
-Proptert|value
+Property|value
 ---|---
 username|root
-passwor|rootpass
+password|rootpass
 port|3306
 volume|/var/lib/mysql
 
@@ -29,5 +29,5 @@ Script| Usage
 7_db_drop_table.js | Drop table
 # Stop and delete database
     docker-compose down -v
-# Refernces
+# References
     https://www.w3schools.com/nodejs/nodejs_mysql.asp
