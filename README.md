@@ -1,9 +1,9 @@
-# Nodejs and MySQL
-In this tutorial we are going to start MySQL database instance using docker-compose. Perform basic operations like create database, create table, insert data , delete data and drop table etc.
+# Node.js and MySQL
+In this tutorial we are going to start MySQL database instance using docker-compose. Perform basic operations like create database, create table, insert data , delete data and drop table etc using Node.js .
 # Install MySQL server using docker-compose
 Clone the repo
 
-    https://github.com/balajich/nodejs-mysql.git
+    https://github.com/balajich/Node.js-mysql.git
 Run MySQL database using docker-compose. The below command runs MySQL in detached mode. Details are
 
 Property|value
@@ -15,7 +15,7 @@ volume|/var/lib/mysql
 
 # Install MySQL Driver for node js
     npm install mysql
-# Nodejs Scripts 
+# Node.js Scripts 
 
 Script| Usage 
 ---|---
@@ -30,4 +30,4 @@ Script| Usage
 # Stop and delete database
     docker-compose down -v
 # References
-    https://www.w3schools.com/nodejs/nodejs_mysql.asp
+    https://www.w3schools.com/Node.js/Node.js_mysql.asp
