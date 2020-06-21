@@ -3,7 +3,7 @@ In this tutorial we are going to start MySQL database instance using docker-comp
 # Install MySQL server using docker-compose
 Clone the repo
 
-    https://github.com/balajich/Node.js-mysql.git
+    https://github.com/balajich/nodejs-mysql.git
 Run MySQL database using docker-compose. The below command runs MySQL in detached mode. Details are
 
 Connect to MySQL database using mysql client program and with root users
