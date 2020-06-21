@@ -1,5 +1,5 @@
 # Nodejs and MySQL
-In this tutorial we are going to start MySQL database instance using docker-compose. Perfrom basic opertaions like create database, create table, insert data , delete data and drop table etc.
+In this tutorial we are going to start MySQL database instance using docker-compose. Perform basic operations like create database, create table, insert data , delete data and drop table etc.
 # Install MySQL server using docker-compose
 Clone the repo
 
@@ -23,7 +23,7 @@ Script| Usage
 1_show_db.js| Lists databases
 2_create_db.js| Create database named companydb
 3_create_table.js| Create Table
-4_db_insert.js | Instert data into table
+4_db_insert.js | Insert data into table
 5_db_select.js | Run select query
 6_db_delete.js | Delete row
 7_db_drop_table.js | Drop table
