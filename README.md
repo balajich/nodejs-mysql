@@ -6,12 +6,18 @@ Clone the repo
     https://github.com/balajich/Node.js-mysql.git
 Run MySQL database using docker-compose. The below command runs MySQL in detached mode. Details are
 
+Connect to MySQL database using mysql client program and with root users
+
+    docker-compose exec mysqldb mysql --user=alex --password=alexpass
+
 Property|value
 ---|---
 username|root
 password|rootpass
 port|3306
 volume|/var/lib/mysql
+non-root-user| alex
+non-root-user-pass| alexpass
 
 # Install MySQL Driver for node js
     npm install mysql
