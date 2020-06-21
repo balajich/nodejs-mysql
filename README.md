@@ -15,6 +15,19 @@ volume|/var/lib/mysql
 
 # Install MySQL Driver for node js
     npm install mysql
-# Nodje Scripts to 
+# Nodejs Scripts 
+
+Script| Usage 
+---|---
+0_db_connection.js| Test connection to database
+1_show_db.js| Lists databases
+2_create_db.js| Create database named companydb
+3_create_table.js| Create Table
+4_db_insert.js | Instert data into table
+5_db_select.js | Run select query
+6_db_delete.js | Delete row
+7_db_drop_table.js | Drop table
+# Stop and delete database
+    docker-compose down -v
 # Refernces
     https://www.w3schools.com/nodejs/nodejs_mysql.asp
