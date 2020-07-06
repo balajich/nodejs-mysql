@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+server/.vagrant/machines/dbhost/virtualbox/action_provision
+server/.vagrant/machines/dbhost/virtualbox/action_set_name
+server/.vagrant/machines/dbhost/virtualbox/box_meta
+server/.vagrant/machines/dbhost/virtualbox/creator_uid
+server/.vagrant/machines/dbhost/virtualbox/id
+server/.vagrant/machines/dbhost/virtualbox/index_uuid
+server/.vagrant/machines/dbhost/virtualbox/private_key
+server/.vagrant/machines/dbhost/virtualbox/synced_folders
+server/.vagrant/machines/dbhost/virtualbox/vagrant_cwd
+server/.vagrant/rgloader/loader.rb
