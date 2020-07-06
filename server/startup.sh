@@ -64,3 +64,6 @@ yum install -y git
 # htop utility
 yum install -y epel-release
 yum install -y htop
+
+# install docker compose
+yum install -y docker-compose
