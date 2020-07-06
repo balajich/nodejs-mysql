@@ -13,7 +13,7 @@ Connect to MySQL database using mysql client program and with root users
 Property|value
 ---|---
 username|root
-password|rootpass
+password|admin
 port|3306
 volume|/var/lib/mysql
 non-root-user| alex
