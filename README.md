@@ -11,7 +11,7 @@ Run MySQL database using docker-compose. The below command runs MySQL in detache
 
 Connect to MySQL database using mysql client program and with root users
 
-    docker-compose exec mysqldb mysql --user=alex --password=alexpass
+    docker-compose exec mysqldb mysql --user=root --password=admin
 
 Property|value
 ---|---
