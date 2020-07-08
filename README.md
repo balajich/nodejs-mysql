@@ -3,6 +3,9 @@ In this tutorial we are going to start MySQL database instance using docker-comp
 # Video 
 [![NodeJs and MySQL](https://img.youtube.com/vi/LDekDFd-leM/0.jpg)](https://www.youtube.com/watch?v=LDekDFd-leM)
 
+# Architecture Diagram
+![Architecture Diagram](Arch-Diagram.png "Architecture Diagram")
+
 # Install MySQL server using docker-compose
 Clone the repo
 
